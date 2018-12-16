@@ -12,29 +12,22 @@ import static org.junit.Assert.*;
 public class RentalTest {
     @Test
     public void testCorrectReturnPrice() {
-
+    // TODO: Implement
     }
 
     @Test
     public void testDelayedReturnPrice() {
-
+        // TODO: Implement
     }
 
     @Test
     public void testMaximalRentalsReached() {
-
+        // TODO: Implement
     }
 
     @Test
     public void testMovieAlreadyRented() {
-
+        // TODO: Implement
     }
-
-
-    /**
-     * During the next development sprint, a database connection is added to the MovieRental.
-     * You want to get ahead with
-     */
-
 
 }
