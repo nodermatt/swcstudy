@@ -10,6 +10,22 @@ import static org.junit.Assert.*;
  * Unit test for MovieRental.
  */
 public class RentalTest {
+    private MovieRental rental;
+    
+    @Before
+    public void setup() {
+        rental = new MovieRental("MovieZone");
+        rental.addMovie("Fast and Furious");
+        rental.addMovie("Nusssknacker");
+        rental.addMovie("Herr der Ringe");
+        rental.addMovie("Eternal sunshine of the spotless mind");       
+    }
+    
+    @After
+    public void tearDown() {
+        rental = null;
+    }
+    
     @Test
     public void testCorrectReturnPrice() {
     // TODO: Implement
