@@ -50,4 +50,11 @@ public class MovieRental {
     public double getPrice(String movie) {
         return 0.0;
     }
+    
+    /**
+    * Add a movie to the rental databse
+    */
+    public void addMovie(String movie) {
+    /*Implementation hidden*/
+    }
 }
