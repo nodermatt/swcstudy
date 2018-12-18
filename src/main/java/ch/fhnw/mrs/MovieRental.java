@@ -33,15 +33,17 @@ public class MovieRental {
      * Checks if a movie is available for rental.
      * @param movie The movie to be looked up
      * @throws IllegalArgumentException if the movie is already rented
+     * @return true if the movie is not rented yet. False if there is an entry in rentals for the movie
      */
-    public void checkRental(String movie) throws IllegalArgumentException {
+    public boolean checkRental(String movie) {
 
     }
 
     /**
      * Returns the price for a movie that the customer rented.
      * Each day a movie is rented costs 2.-
-     * If a movie is returned after its return date, a surcharge of 5.- is applied
+     * If a movie is returned after its return date, a surcharge of 5.- is applied.
+     * hint: Rentals uses LocalDate to save the rented date. The class java.util.time.LocalDate might have useful methods.
      * @param movie
      * @return the total cost for the rental
      */
