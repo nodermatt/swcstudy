@@ -42,7 +42,9 @@ public class MovieRental {
     /**
      * Returns the price for a movie that the customer rented.
      * Each day a movie is rented costs 2.-
+     * The valid rental duration for movies is 10 days.
      * If a movie is returned after its return date, a surcharge of 5.- is applied.
+     * 
      * hint: Rentals uses LocalDate to save the rented date. The class java.util.time.LocalDate might have useful methods.
      * @param movie
      * @return the total cost for the rental
